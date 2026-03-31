@@ -110,7 +110,7 @@ All options are available in the **sidebar** of the app:
 
 | Option | Choices | Description |
 |---|---|---|
-| **Model** | `gemini-2.5-flash-lite`, `gemini-2.0-flash`, `gemini-2.5-flash`, `gemini-2.5-pro` | Gemini model to use. `flash-lite` has the highest free quota (1,000 req/day) |
+| **Model** | `gemini-2.5-flash-lite`, `gemini-2.5-flash`, `gemini-2.5-pro` | Gemini model to use. `flash-lite` has the highest free quota (1,000 req/day). `gemini-2.0-flash` has been retired and is no longer available on the free tier. |
 | **Article Style** | `Blog`, `Newsletter`, `Report` | Controls tone and structure of the generated article |
 | **Summary Length** | `Short`, `Medium`, `Long` | Short = 3–5 sentences · Medium = 2–3 paragraphs · Long = 4–5 paragraphs |
 | **Output Format** | `Markdown`, `HTML` | Output format for both the article display and downloads |

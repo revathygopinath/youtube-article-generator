@@ -10,7 +10,7 @@ from transcript import estimate_tokens
 # LLM FACTORY
 # ──────────────────────────────────────────────
 
-def get_llm(api_key: str, model: str = "gemini-2.5-flash-lite") -> ChatGoogleGenerativeAI:
+def get_llm(api_key: str, model: str = "gemini-2.0-flash") -> ChatGoogleGenerativeAI:
     """Instantiate Gemini LLM via LangChain."""
     return ChatGoogleGenerativeAI(
         model=model,

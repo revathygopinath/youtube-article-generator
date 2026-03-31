@@ -385,15 +385,15 @@ with st.sidebar:
     st.divider()
 
     model = st.selectbox(
-        "Gemini Model",
-        options=[
-            "gemini-2.5-flash-lite",
-            "gemini-2.5-flash",
-            "gemini-2.5-pro",
-        ],
-        index=0,
-        help="gemini-2.5-flash-lite → highest free quota (1,000 req/day)",
-    )
+    "Gemini Model",
+    options=[
+        "gemini-2.5-flash-lite",
+        "gemini-2.5-flash",
+        "gemini-2.5-pro",
+    ],
+    index=0,
+    help="flash-lite → 1,000 req/day free · flash → 250 req/day · pro → requires billing",
+)
 
     st.divider()
     st.markdown("### 🎛️ Article Options")
